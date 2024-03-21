@@ -33,6 +33,7 @@ import {
     sliders04,
     telegram,
     twitter,
+    github,
     yourlogo,
   } from "../assets";
   
@@ -309,9 +310,9 @@ import {
     },
     {
       id: "2",
-      title: "Instagram",
-      iconUrl: instagram,
-      url: "#",
+      title: "Github",
+      iconUrl: github,
+      url: "https://github.com/TruCritic-xyz",
     },
     {
       id: "3",
@@ -319,10 +320,11 @@ import {
       iconUrl: telegram,
       url: "#",
     },
-    {
-      id: "4",
-      title: "Facebook",
-      iconUrl: facebook,
-      url: "#",
-    },
+    // {
+    //   id: "4",
+    //   title: "Facebook",
+    //   iconUrl: facebook,
+    //   url: "#",
+    // },
+    
   ];

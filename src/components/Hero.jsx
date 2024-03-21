@@ -11,6 +11,7 @@ import CompanyLogos from "./CompanyLogos";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
+  
 
   return (
     <Section
@@ -39,7 +40,9 @@ const Hero = () => {
           Unleash the truth through Recivo. Leave the true review and earn rewards.
           </p>
           <Button href="/pricing" white>
-            Join Waitlist
+            <a href="https://a0ngksn2f5g.typeform.com/to/gdRj57UV#walletaddress=xxxxx">
+              Join Waitlist
+            </a>
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
