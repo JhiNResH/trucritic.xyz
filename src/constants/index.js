@@ -59,14 +59,14 @@ import {
     },
     {
       id: "4",
-      title: "New account",
-      url: "#signup",
+      title: "Document",
+      url: "#document",
       onlyMobile: true,
     },
     {
       id: "5",
-      title: "Sign in",
-      url: "#login",
+      title: "Install",
+      url: "#install",
       onlyMobile: true,
     },
   ];

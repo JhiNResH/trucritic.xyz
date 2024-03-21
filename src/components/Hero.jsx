@@ -39,7 +39,7 @@ const Hero = () => {
           Unleash the truth through Recivo. Leave the true review and earn rewards.
           </p>
           <Button href="/pricing" white>
-            Join the Waitlist
+            Join Waitlist
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
