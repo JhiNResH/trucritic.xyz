@@ -1,4 +1,4 @@
-import { curve, heroBackground, robot, trucritic } from "../assets";
+import { curve, heroBackground, robot, trucritic1 } from "../assets";
 import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
@@ -11,7 +11,7 @@ import CompanyLogos from "./CompanyLogos";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
-  
+
 
   return (
     <Section
@@ -24,9 +24,9 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-          A non bias word-of-mouth&nbsp;review&nbsp;platform {` `}
+            A non bias word-of-mouth&nbsp;review&nbsp;platform {` `}
             <span className="inline-block relative">
-            TruCritic{" "}
+              TruCritic{" "}
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
@@ -37,9 +37,9 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-          Unleash the Truth and Get Rewards through Recivo.
+            Unleash the Truth and Get Rewards through Recivo.
           </p>
-          <Button href="/pricing" white> 
+          <Button href="/pricing" white>
             <a href="https://a0ngksn2f5g.typeform.com/to/gdRj57UV#walletaddress=xxxxx">
               Join Waitlist
             </a>
@@ -50,10 +50,17 @@ const Hero = () => {
             <div className="relative bg-n-8 rounded-[1rem]">
               <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
 
-              <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/680]">
-                <img
-                  src={trucritic}
+              <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490] flex justify-center items-center">
+                {/* <img
+                  src={trucritic1}
                   className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
+                  width={1024}
+                  height={490}
+                  alt="Trucritic"
+                /> */}
+                <img
+                  src={trucritic1}
+                  className="w-full scale-[1.7] translate-y-[8%] md:scale-[1]"
                   width={1024}
                   height={490}
                   alt="Trucritic"

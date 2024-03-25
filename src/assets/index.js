@@ -1,5 +1,6 @@
 import brainwave from "./brainwave.svg";
 import trucritic from "./trucritic.svg";
+import trucritic1 from "./trucritic1.jpeg";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
@@ -87,6 +88,7 @@ import github from "./socials/github.svg";
 
 export {
   trucritic,
+  trucritic1,
   brainwave,
   check,
   check2,
