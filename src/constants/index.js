@@ -35,6 +35,7 @@ import {
   sliders04,
   telegram,
   twitter,
+  x,
   github,
   yourlogo,
   trucritic,
@@ -308,8 +309,8 @@ export const socials = [
   },
   {
     id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
+    title: "X",
+    iconUrl: x,
     url: "https://twitter.com/TruCritic_xyz",
   },
   {

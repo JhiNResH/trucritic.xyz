@@ -79,12 +79,13 @@ import benefitIcon6 from "./benefits/icons-6.png";
 
 import benefitImage2 from "./benefits/image-2.png";
 
-import discordBlack from "./socials/discord.svg";
+import discordBlack from "./socials/discord.png";
 import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 import github from "./socials/github.svg";
+import x from "./socials/x.svg";
 
 export {
   trucritic,
@@ -163,4 +164,5 @@ export {
   telegram,
   twitter,
   github,
+  x,
 };
