@@ -324,11 +324,11 @@ export const socials = [
     iconUrl: telegram,
     url: "#",
   },
-  // {
-  //   id: "4",
-  //   title: "Facebook",
-  //   iconUrl: facebook,
-  //   url: "#",
-  // },
+  {
+    id: "4",
+    title: "Instagram",
+    iconUrl: instagram,
+    url: "#https://www.instagram.com/trucritic/",
+  },
 
 ];
