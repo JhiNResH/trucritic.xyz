@@ -37,9 +37,9 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-          Unleash the truth through Recivo. Leave the true review and earn rewards.
+          Unleash the Truth and Get Rewards through Recivo.
           </p>
-          <Button href="/pricing" white>
+          <Button href="/pricing" white> 
             <a href="https://a0ngksn2f5g.typeform.com/to/gdRj57UV#walletaddress=xxxxx">
               Join Waitlist
             </a>

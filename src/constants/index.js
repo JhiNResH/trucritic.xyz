@@ -49,7 +49,7 @@ import {
     {
       id: "1",
       title: "Concepts",
-      url: "#concepts",
+      url: "#benefits",
     },
     {
       id: "2",
@@ -291,7 +291,7 @@ import {
     {
       id: "5",
       title: "Earn as You Explore",
-      text: "Participate in exciting quests and challenges. Earn points, badges, and that showcase your status and achievements in the TruCritiverse.",
+      text: "Participate in exciting quests and challenges. Earn points, badges, and that showcase your status and achievements in the Truverse.",
       backgroundUrl: "assets/benefits/card-6.svg",
       iconUrl: benefitIcon6,
       imageUrl: trucritic,
