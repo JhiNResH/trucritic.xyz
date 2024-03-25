@@ -1,9 +1,11 @@
 import ButtonGradient from './assets/svg/ButtonGradient';
 import Header from './components/Header';
 import Hero from './components/Hero';
-// import Roadmap from './components/Roadmap';
+import Roadmap from './components/Roadmap';
 import Footer from './components/Footer';
 import Benefits from './components/Benefits';
+import Collaboration from './components/Collaboration';
+import Services from './components/Services';
 
 const App = () => {
   return (
@@ -12,7 +14,9 @@ const App = () => {
         <Header />
         <Hero />
         <Benefits />
-        {/* <Roadmap /> */}
+        {/* <Collaboration /> */}
+        {/* <Services /> */}
+        <Roadmap />
         <Footer />
       </div>
       <ButtonGradient />

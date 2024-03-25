@@ -40,6 +40,10 @@ import slack from "./collaboration/slack.png";
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
 import service3 from "./services/service-3.png";
+import Home from "./services/Home.png";
+import Quest from "./services/Quest.png";
+import Review from "./services/Review.png";
+
 
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
@@ -121,6 +125,9 @@ export {
   service1,
   service2,
   service3,
+  Home,
+  Quest,
+  Review,
   lines,
   stars,
   coins,
