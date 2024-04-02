@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            A non bias word-of-mouth&nbsp;review&nbsp;platform {` `}
+            A validated review layer&nbsp;on Solana&nbsp;{` `}
             <span className="inline-block relative">
               TruCritic{" "}
               <img
@@ -37,7 +37,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Unleash the Truth and Get Rewards through Recivo.
+            Unleash the Truth and Get Rewarded through Recivo.
           </p>
           <Button href="/pricing" white>
             <a href="https://a0ngksn2f5g.typeform.com/to/gdRj57UV#walletaddress=xxxxx">
@@ -82,7 +82,7 @@ const Hero = () => {
                 <ScrollParallax isAbsolutelyPositioned>
                   <Notification
                     className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
-                    title="restaurant Recommendation"
+                    title="Restaurant Recommendations"
                   />
                 </ScrollParallax>
               </div>
