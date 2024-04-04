@@ -64,8 +64,8 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
 
-        <a
-          href="#document"
+        <a id="#document"
+          href="https://trucritic.gitbook.io/trucritic/"
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
           Document
