@@ -48,16 +48,16 @@ export const navigation = [
     title: "Features",
     url: "#features",
   },
-  // {
-  //   id: "1",
-  //   title: "Concepts",
-  //   url: "#benefits",
-  // },
-  // {
-  //   id: "2",
-  //   title: "Why TruCritic",
-  //   url: "#why trucritic",
-  // },
+  {
+    id: "1",
+    title: "Recivo",
+    url: "#recivo",
+  },
+  {
+    id: "2",
+    title: "Why TruCritic",
+    url: "#how-to-use",
+  },
   {
     id: "3",
     title: "Roadmap",
@@ -84,9 +84,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Validated reviews",
+  "Interactive food maps",
+  "Get rewards for reviews",
 ];
 
 export const brainwaveServicesIcons = [
@@ -101,7 +101,7 @@ export const roadmap = [
   {
     id: "0",
     title: "Build Recivo",
-    text: "",
+    text: "Hackathon",
     date: "March - April 2024",
     status: "progress",
     imageUrl: roadmap3,
@@ -109,24 +109,24 @@ export const roadmap = [
   },
   {
     id: "1",
-    title: "Build NFT",
-    text: "",
+    title: "Recivo",
+    text: "Close deal with POS, Launch Recivo, Build NFT",
     date: "Q2 2024",
     status: "progress",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Launch NFT, Buidl TruCritic",
-    text: "",
+    title: "TruCritic Beta",
+    text: "Build TruCritic, Launch NFT",
     date: "Q3 2024",
     status: "progress",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Buidl TruCritic",
-    text: "",
+    title: "TruCritic Alpha",
+    text: "Coupons marketplace, TruCritic AI",
     date: "Q4 2024",
     status: "progress",
     imageUrl: roadmap2,
@@ -134,21 +134,23 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "With Web3 auth, we allow users to signup with their Web2 socail accounts, such as Gmail, X, Apple, etc.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Web2 Friendly",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Loyalty Tracking",
+    text: "Track your loyalty points and rewards in one place.",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Leads to TruCritic",
+    text: "Connect to TruCritic seamlessly",
   },
 ];
 
@@ -254,7 +256,7 @@ export const benefits = [
     text: "Discover hidden gems and popular eateries through an interactive map.",
     backgroundUrl: "assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
-    imageUrl: trucritic,
+    imageUrl: benefitIcon1,
   },
   {
     id: "1",
@@ -262,7 +264,7 @@ export const benefits = [
     text: "Users can only review a restaurant if they have a valid receipt, ensuring the authenticity of reviews.",
     backgroundUrl: "assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
-    imageUrl: trucritic,
+    imageUrl: benefitIcon2,
     light: true,
   },
   {
@@ -271,7 +273,7 @@ export const benefits = [
     text: "Friend other users, exchange or trade coupons, and share your culinary discoveries. Build your foodie network and community within TruCritic.",
     backgroundUrl: "assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
-    imageUrl: trucritic,
+    imageUrl: benefitIcon3,
   },
   {
     id: "3",
@@ -279,7 +281,7 @@ export const benefits = [
     text: "Post and read reviews in real-time. Experience the latest dining trends and opinions as they happen.",
     backgroundUrl: "assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
-    imageUrl: trucritic,
+    imageUrl: benefitIcon4,
     light: true,
   },
   {
@@ -288,7 +290,7 @@ export const benefits = [
     text: "Get recommendations based on your preferences and past reviews. We track what you love, guiding you to your next great meal.",
     backgroundUrl: "assets/benefits/card-5.svg",
     iconUrl: benefitIcon5,
-    imageUrl: trucritic,
+    imageUrl: benefitIcon5,
   },
   {
     id: "5",
@@ -296,7 +298,7 @@ export const benefits = [
     text: "Participate in exciting quests and challenges. Earn points, badges, and that showcase your status and achievements in the Truverse.",
     backgroundUrl: "assets/benefits/card-6.svg",
     iconUrl: benefitIcon6,
-    imageUrl: trucritic,
+    imageUrl: benefitIcon6,
   },
 ];
 

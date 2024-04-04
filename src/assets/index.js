@@ -86,8 +86,25 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 import github from "./socials/github.svg";
 import x from "./socials/x.svg";
+import recivo from "./recivo.png";
+import recivo1 from "./recivo1.png";
+import recivo2 from "./recivo2.png";
+import recivo3 from "./recivo2.png";
+import users from "./users.jpeg";
+import users1 from "./users1.png";
+import smallbusiness from "./smallbusiness.png";
+import restaurantschain from "./restaurantschain.jpg";
+
 
 export {
+  restaurantschain,
+  smallbusiness,
+  users,
+  users1,
+  recivo,
+  recivo1,
+  recivo2,
+  recivo3,
   trucritic,
   trucritic1,
   brainwave,
