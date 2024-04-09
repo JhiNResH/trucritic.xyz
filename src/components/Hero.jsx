@@ -1,11 +1,13 @@
-import { curve, heroBackground, robot, trucritic1 } from "../assets";
+import { curve,  trucritic1 } from "../assets";
+// import { curve, heroBackground, robot, trucritic1 } from "../assets";
+
 import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
-import Generating from "./Generating";
+// import Generating from "./Generating";
 import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
 
@@ -24,7 +26,7 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            A validated review layer&nbsp;on Solana&nbsp;{` `}
+            A verified review network&nbsp;on Solana&nbsp;{` `}
             <span className="inline-block relative">
               TruCritic{" "}
               <img
